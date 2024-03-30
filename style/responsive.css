@@ -1,0 +1,91 @@
+@media (min-width:576px) {
+
+}
+/* ---- */
+@media (min-width:768px) {
+    .headerBorder{width: 90%;}
+    .nav{
+        width: 80%;
+        height: 8rem;
+    }
+    .nav::before{
+         width: 102.7%;
+        height: 9.1rem;
+    }
+    .topSellerItemBorder{
+        width: 27.25rem;
+        height: 13.139rem;
+    }
+    .topSellerItem{
+        width: 26.65rem;
+        height: 12.539rem;
+    }
+    .topSellerItemLeft{padding-left: 4.5rem;}
+    .CollectionItem-2{display: block;}
+    .CollectionItem-1{
+        width: 26.3rem;
+        height: 40.377rem;
+    }
+    .CollectionItemImg-2 > img{
+        width: 22.3rem;
+        height: 20.558rem;}
+        .frame2Item{height: 34rem;}
+        .frame2Itemtop{display: flex;}
+        .frame2ItemBottom{margin-top: 0;}
+        .frame2ItemtopLink{margin-top: 0;}
+        .footerSection4 > h2{
+            margin-top: 0.1rem;
+        }
+            .footerBackground{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                padding-left: 9rem;
+            }
+        }
+        /* --- */
+        @media (min-width:992px) {
+            .headerBorder{width: 89%;}
+            .topSellerWrap{margin-bottom: 8rem;}
+            .Features{justify-content: left;}
+            .frame2Item-2 > p{min-width: 25rem;}
+            .Create-And{justify-content: left;}
+            .footerBottom2{
+                display: flex;
+                align-items: center;
+            }
+            .footerBottomRight{
+                margin-right: 2rem;
+            }
+        }
+        /* --- */
+        @media (min-width:1200px) {
+        .headerBorder{width: 95%;}
+        .header{
+            min-width: 60rem
+        }
+        .nav{
+            width: 112.9rem;
+            height: 8.5rem;
+        }
+    .nav::before{
+        width: 114.7rem;
+        height: 9.9rem;
+    }
+    .navLink{display: none;}
+    .navLogo::before{display: flex;}
+    .navForm{display: flex;}
+    .navUl{display: flex;}
+    .navLi-Linkl{display: flex;}
+    .Buy-and-sell{
+        font-size: 7rem;
+        max-width: 50rem;
+    }
+    .Buy-and-sell > span{font-size: 7rem;}
+    .footerBackground{flex-wrap: nowrap;}
+    
+}
+/* ---- */
+@media (min-width:1400px) {
+    .frame2Item-2{width: 23rem;}
+}
