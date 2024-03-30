@@ -933,12 +933,12 @@ a{
 .footerBottom2{
     width: 100%;
     display: block;
-    text-align: center;
     background-color: #090A27;
     padding: 2.7rem 0 2.6rem 1.5rem;
 }
 .footerBottomH4{
-    display: block;
+    display: flex;
+    justify-content: center;
     color: #B8B6B6;
     margin-bottom: 0.7rem;
 }
